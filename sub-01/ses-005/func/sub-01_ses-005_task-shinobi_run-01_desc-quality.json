@@ -1,0 +1,26 @@
+{
+    "PPG": {
+        "Description": "Cardiac pulse signal",
+        "PercentageValid": 1.0,
+        "QualityAssessment": "Pass"
+    },
+    "ECG": {
+        "Description": "Electrocardiogram signal",
+        "PercentageValid": 0.9167,
+        "QualityAssessment": "Pass"
+    },
+    "RSP": {
+        "Description": "Respiratory belt signal",
+        "PercentageValid": 1.0,
+        "QualityAssessment": "Pass"
+    },
+    "EDA": {
+        "Description": "Electrodermal signal",
+        "PercentageValid": 1.0,
+        "QualityAssessment": "Pass"
+    },
+    "Description": {
+        "PercentageValid": "Percentage of acceptable 1min windows within a run based on modality specific criterion",
+        "QualityAssessment": "Quality assessment of the run. Pass if more than 80% of the run is classified as Acceptable, otherwise Fail"
+    }
+}
