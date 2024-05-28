@@ -1,0 +1,30 @@
+{
+    "StartTime": 0,
+    "SamplingFrequency": 1000,
+    "Columns": [
+        "PPG",
+        "ECG",
+        "RSP",
+        "EDA",
+        "EDATonic",
+        "EDAPhasic"
+    ],
+    "PPG": {
+        "Description": "Preprocessed PPG signal"
+    },
+    "ECG": {
+        "Description": "Preprocessed ECG signal"
+    },
+    "RSP": {
+        "Description": "Preprocessed respiratory signal"
+    },
+    "EDA": {
+        "Description": "Preprocessed EDA signal"
+    },
+    "EDATonic": {
+        "Description": "Tonic component from the preprocessed EDA signal"
+    },
+    "EDAPhasic": {
+        "Description": "Phasic component from the preprocessed EDA signal"
+    }
+}
