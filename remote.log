@@ -1,0 +1,1 @@
+9cd15987-ff53-4ec2-a629-249a946bb57b autoenable=true bucket=cneuromod.shinobi.physprep chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=s3.cneuromod.shinobi.physprep port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1738203847.723590482s
