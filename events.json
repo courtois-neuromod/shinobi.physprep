@@ -1,0 +1,26 @@
+{
+    "trial_type": {
+        "LongName": "Physiological events category",
+        "Description": "Indicator of the physiological event extracted from the preprocessed timeseries",
+        "Levels": {
+            "r_peak": "R peak extracted from preprocessed ecg signal using ecg_peaks promac method from neurokit2",
+            "r_peak_corrected": "Corrected R peak using signal_fixpeaks neurokit method from neurokit2 on r_peak",
+            "systolic_peak": "Systolic peak extracted from preprocessed ppg signal using ppg_findpeaks elgendi method from neurokit2",
+            "systolic_peak_corrected": "Corrected systolic peak using signal_fixpeaks neurokit method form neurokit2 on systolic_peak",
+            "scr_onset": "Skin conductance response onset extracted from the phasic component of the EDA signal using eda_process neurokit method from neurokit2",
+            "scr_peak": "Skin conductance response peak extracted from the phasic component of the EDA signal using eda_process neurokit method from neurokit2",
+            "scr_recovery": "Skin conductance response recovery (half amplitude of the SCR decline) extracted from the phasic component of the EDA signal using eda_process neurokit method from neurokit2",
+            "inhale_max": "Respiratory peak extracted from preprocessed respiratory signal using rsp_process khodadad2018 method from neurokit2",
+            "exhale_max": "Respiratory trough extracted from preprocessed respiratory signal using rsp_process khodadad2018 method from neurokit2"
+        }
+    },
+    "channel": {
+        "Description": "Physiological modality associated with the event",
+        "Levels": {
+            "ECG": "Continuous preprocessed electrocardiogram measurement",
+            "PPG": "Continuous preprocessed pulse measurement",
+            "RSP": "Continuous preprocessed respiratory measurements",
+            "EDAPhasic": "Continuous phasic component of the preprocessed electrodermal measurement"
+        }
+    }
+}
